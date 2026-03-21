@@ -1,0 +1,193 @@
+.payment-bills-container {
+    display: none;
+}
+
+.payment-docs-container {
+    display: none;
+}
+
+.payment-reciept-container {
+    display: none;
+}
+
+.payments-container {
+    display: flex;
+}
+
+.payments-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.reciepts{
+    color: wheat;
+    text-align: center;
+    width: 100%;
+}
+
+.reciepts-table {
+    background-color: rgb(244, 249, 249);
+   
+    gap: 0px;
+    
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid honeydew;
+    margin: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+    background-color: rgb(235, 245, 245);
+    background-color: rgb(15, 73, 93);
+    
+    font-size: small;
+ 
+    border: none;
+    color: black;
+    /* background-color: rgb(20, 65, 44); */
+}
+
+th {
+    width: 150px;
+    text-align: center;
+    color: black;
+    color: white;
+    background-color: rgb(7, 80, 7);
+    
+    /* border: 0.2px solid rgb(20, 41, 79); */
+    /* background-color: rgb(13, 87, 63); */
+}
+
+td {
+   text-align: center;
+    background-color: cornsilk;
+    background-color: rgb(239, 239, 239);
+}
+
+.No {
+    width: fit-content;
+    text-align: center;
+
+    color: rgb(19, 26, 29);
+    font-size: small;
+}
+
+.no {
+    width: fit-content;
+     color: white;
+}
+.payment-method-wrapper {
+    display: flex;
+    padding: 10px;
+    justify-content:space-around;
+    width: 800px;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.payment-method h3 {
+    padding: 5px;
+    color: rgb(12, 76, 12);
+    font-size: medium;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    
+}
+
+
+.pay-btn {
+    padding: 3px;
+    color:  rgb(35, 42, 46);
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0.3px solid rgb(24, 72, 44);
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtn-payment-container {
+    display: none;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.mtn-payment-form {
+    width: 250px;
+    height: 400px;
+    padding: 10px; 
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(218, 134, 25);
+   padding: 12px;
+
+}
+
+/* 
+input {
+    margin: 15px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 2px;
+
+} */
+
+/* input[placeholder] {
+    color: white ;
+    font-size: small;
+    font-weight: 500;
+    padding: 3px;
+    background-color: black;
+    border-radius: 10px;
+} */
+
+.no-arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.sign-in {
+    color: black;
+    font-size: small;
+}
+
+.mtn-btn {
+    color: yellow;
+    background-color: black;
+    padding: 4px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,21 @@
+.main-software-product-container {
+    display: grid;
+    gap: 10px;
+}
+
+
+
+.software-product-container {
+    display: flex; 
+    background-color:white; 
+    padding:10px;
+
+}
+
+.software-product-content-container {
+    display: flex;
+}
+
+.spc-details-container {
+    padding: 4px;
+}

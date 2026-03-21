@@ -1,0 +1,326 @@
+
+.all-contents-conatiner-dashboard {
+    display: flex;
+    justify-content: start;
+    width: 80vw;
+    background-color: rgb(239, 239, 239);
+}
+
+.user-details-slogan {
+    font-weight: 400;
+    color: rgb(3, 184, 3);
+    font-size:medium;
+}
+
+
+
+
+.activites-dash-tabs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    width: 70%;
+
+}
+
+.activites-tab {
+    border: 0.5px solid rgb(20, 98, 26);
+    border-radius: 4px;
+    border: double;
+    box-shadow: 1px 0px 1px teal;
+    display: flex;
+    width: fit-content;
+    padding: 6px;
+    text-align: center;
+    color: teal;
+    background-color: rgb(5, 43, 29);
+}
+
+.activites-tab h3 {
+    color: whitesmoke;   
+    text-decoration-line: underline;
+    text-decoration-color: rgb(20, 220, 150);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    padding-bottom: 8px; 
+    
+}
+
+.activites-tab .activity-type {
+    color: rgb(34, 138, 124);
+    text-decoration-color: rgb(20, 220, 150);
+    text-underline-offset: 3px;
+    padding-bottom: 5px;
+}
+
+
+.activity-description {
+    border-bottom: 1px solid whitesmoke;
+       border-top: 1px solid whitesmoke;
+    border-radius: 3px;
+    padding: 2px;
+      background: linear-gradient(154deg, rgb(184, 176, 176) 0% 15%, rgb(255, 255, 255) 47% 100%);
+      color:rgb(20, 101, 105);
+      color:rgb(2, 106, 77);
+}
+
+.activity-code {
+    color: white;
+    padding: 2px;
+}
+
+.activity-status {
+    color: #fbfbfb;
+    padding: 3px;
+}
+
+.activity-button {
+    background-color: green;
+    color: white;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15%;
+    margin: 4px;
+}
+
+.dash-bookings-main-container {
+    width:410px;
+    height: 290px;
+    background-color: cadetblue;
+    background-color: rgba(11, 39, 34, 0.836);
+    display: flex;
+    justify-content: start;
+    align-items: center ;
+    flex-direction: column;
+    /* width: fit-content; */
+}
+
+.dash-bookings-main-container .header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.dash-bookings-main-container section {
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: 4fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 6px;
+    row-gap: 8px;
+   
+    margin-left: auto;
+    margin-right: auto ;
+    margin: 10px;
+
+}
+
+.dash-bookings-main-container section div{
+  
+    border-bottom: rgb(21, 66, 60) 4px solid;
+   box-shadow: 3px 0px 3px rgb(0, 0, 0);
+   margin-left: 2px;
+   margin-right: 2px;
+   /* width: 90px; */
+
+}
+
+.dash-bookings-main-container section div .dash-headers-cards{
+  
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline 2px rgb(11, 133, 98);
+    text-underline-offset: 5px;
+    
+}
+
+
+ .todays-appointment{
+   margin-left: 2px;
+   margin-right: 2px;
+   background-color: rgb(3, 99, 72);
+       background-color: rgb(0 0 0 / 61%);
+   color: black;
+   /* color: white; */
+   padding: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   grid-column: span 2;
+   grid-auto-rows: 100px;
+
+}
+
+.todays-payments {
+    grid-column: span 4;
+    text-align: center;
+    background-color: rgba(24, 54, 41, 0.76);
+    display:flex ;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    padding: 8px;
+
+}
+
+.todays-appointment, h4 span {
+
+    color: black;
+    color: antiquewhite;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dash-bookings-main-container h3 {
+    color: rgb(7, 130, 108);
+    color: #fbfbfb;
+
+}
+.dash-bookings-container {
+    background-color: rgb(11, 11, 11);
+    color: rgb(18, 76, 18);
+    border: 1px solid black;
+    height: 55px;
+    width: 80px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.dash-bookings-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.dash-bookings-container div h4 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+    
+}
+
+
+.dash-payment-container {
+     background-color: rgb(4, 67, 78);
+    color: rgb(48, 84, 48);
+    border: 1px solid rgb(57, 210, 210);
+    height: 45px;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+    text-align: center;
+}
+
+
+.dashboard-gride {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+
+
+}
+
+.project-management-container {
+    grid-column: span 3;
+}
+
+.pay-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 3px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.pay-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.pay-button {
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(4, 123, 121);
+    background-color: rgb(156, 7, 7);
+    color: white;
+    font-weight: lighter;
+        font-size: smaller;
+    font-size: small;
+    margin: 9px;
+    /* padding-left: 4px; */
+    /* padding-right: 4px; */
+
+}
+
+.pay-button-airtel {
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(4, 123, 121);
+    background-color: rgb(156, 7, 7);
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+        font-size: smaller;
+    margin: 7px;
+}
+
+.pay-button-mtn {
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(4, 123, 121);
+    background-color: rgb(184, 190, 3);
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-size: smaller;
+    margin: 7px;
+}
+
+.appointment-button {
+      border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(4, 123, 121);
+    
+    color: white;
+    font-weight: lighter;
+        font-size: smaller;
+    font-size: small;
+    margin: 6px;
+
+}
+
+
+.appointment-button-procced {
+    background-color: rgb(6, 100, 6);
+}
+
+.appointment-button-cancel {
+    background-color: rgb(199, 6, 6);
+}
+
+
+.project-container {
+    display: grid;
+    grid-column: span 2;
+        background-color: rgb(11, 11, 11);
+    color: rgb(18, 76, 18);
+    border: 1px solid black;
+    height: 55px;
+    width: 100%;
+
+  
+
+}

@@ -1,0 +1,324 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.login-container {
+    background-color: black;
+      background-color: aliceblue;
+    flex-direction: column;
+    
+}
+
+
+.pay-options-container {
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:200px;
+    background-color: rgb(14, 71, 14);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    padding: 2px 3px;
+}
+
+
+
+
+
+
+
+
+.payment-contents-conatiner-tabs {
+    display: none;
+   flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    height: 100%;
+}
+
+
+.complete-user-profile-contents-conatiner-tabs {
+    display: none;
+   flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+     width: 80vw;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    height: 100%;
+}
+
+.edit-profile-contents-conatiner-tabs {
+    display: none;
+   flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    height: 100%;
+}
+
+.my-profile-contents-conatiner-tabs {
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    width: 100%;
+     width: 80vw;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    background-color: rgb(22, 32, 30);
+    height: 100%;
+    margin-right: 0%;
+   
+}
+
+
+
+.reciepts{
+    color: wheat;
+    text-align: center;
+    width: 100%;
+}
+
+.reciepts-table {
+    background-color: rgb(244, 249, 249);
+    gap: 0px;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid honeydew;
+    margin: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+    background-color: rgb(235, 245, 245);
+    background-color: rgb(15, 73, 93);
+    
+    font-size: small;
+ 
+    border: none;
+    color: black;
+    /* background-color: rgb(20, 65, 44); */
+}
+
+th {
+    width: 150px;
+    width: 320px;
+    text-align: center;
+    color: black;
+    color: white;
+    background-color: rgb(7, 80, 7);
+    
+    /* border: 0.2px solid rgb(20, 41, 79); */
+    /* background-color: rgb(13, 87, 63); */
+}
+
+td {
+   text-align: center;
+    background-color: cornsilk;
+    background-color: rgb(239, 239, 239);
+}
+
+.No {
+    width: fit-content;
+    text-align: center;
+
+    color: rgb(19, 26, 29);
+    font-size: small;
+}
+
+.no {
+    width: fit-content;
+     color: white;
+}
+
+
+
+
+.payment-reciept-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+align-items: flex-start;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+
+.all-booking-container {
+    width: 100%;
+}
+
+.all-contents-conatiner {
+    display: flex;
+   
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    height: 100%;
+}
+
+
+
+
+
+input[type='file'] {
+    color: green;
+    text-align: center;
+}
+
+
+input[type='date'] {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-style: oblique;
+    font-weight: bold;
+    color: green;
+     width: 200px;
+
+    
+    
+}
+
+input[type='time'] {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-style: oblique;
+    font-weight: bold;
+    color: green;
+    width: 200px;
+
+    
+    
+}
+
+label {
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+select {
+    border-radius: 10%;
+    background-color: rgb(16, 78, 38);
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+button[type="submit"] {
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    height: 200px;
+}
+
+tr {
+    display: grid;
+    flex-direction: column;border: 2px solid black;
+}
+
+td {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.all-booking-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.booking-card {
+    background-color: rgba(21, 21, 21, 0.93);
+    border-radius: 5px;
+    text-align:left;
+    padding: 4px;
+    margin: 5px;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    color: whitesmoke;
+    display: grid;
+    row-gap: 3px;
+    flex-direction: column;
+}
+
+.status {
+    text-align: center;
+}
+
+
+.status{
+    color: green;
+}
+
+[data-booking-status="pending"] {
+    color: rgb(255, 255, 255);
+}
+
+[data-booking-status="approved"] {
+    color: rgba(0, 255, 98, 0.773);
+}
+
+[data-booking-status="rejected"] {
+    color: rgb(224, 1, 1);
+}
+.service-name {
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    text-emphasis-color: blue;
+   
+    text-align: center;
+}
+
+
+.booking-btn {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(23, 75, 49);
+    color: white;
+}

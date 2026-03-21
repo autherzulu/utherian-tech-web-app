@@ -1,0 +1,260 @@
+
+
+table {
+    background-color: rgb(244, 249, 249);
+    background-color: rgb(20, 65, 44);
+      background-color: rgb(22, 32, 30);
+    gap: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    width: 70%;
+    font-family: monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+    background-color: rgb(235, 245, 245);
+    color: black;
+    background-color: rgb(20, 65, 44);
+      background-color: rgb(22, 32, 30);
+}
+
+th {
+    text-align: center;
+    color: black;
+    border: 0.2px solid rgb(20, 41, 79);
+    background-color: rgb(13, 87, 63);
+      background-color: rgb(22, 32, 30);
+}
+
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+
+/* .main-content-container {
+    background-color: gainsboro;
+    background-color: rgb(15, 22, 23);
+    color: black;
+    font-size: small;
+    height: 95vh;
+}
+ */
+
+
+.table-header {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 60%;
+    border-radius: 0px;
+}
+
+.profile-details {
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(20, 65, 44);
+      background-color: rgb(22, 32, 30);
+    border: none;
+    width: 130px;
+    height: 35px;
+    color: rgb(9, 112, 9);
+    color: white;
+     color: darkcyan;
+  
+    text-align: start;
+    font-size: small;
+    font-weight: normal; 
+    /* font-weight:bold; */
+}
+
+.profile-conatiner_details {
+    display: flex;
+}
+
+.profile-details-values {
+   width: 200px;
+   color: white;
+}
+
+
+.payment-contents-conatiner-tabs {
+    display: none;
+   flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    height: 100%;
+}
+
+
+
+
+.edit-profile-contents-conatiner-wrapper {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    
+}
+
+.edit-profile-contents-conatiner-wrapper div {
+    margin-left: 10px;
+}
+.edit-profile-contents-conatiner-tabs {
+    display: none;
+   flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(20, 65, 44);
+  background-color: rgb(22, 32, 30);
+    height: 100%;
+}
+
+.activites-dash-tabs-wrapper {
+    width: 100vw;
+}
+
+.all-contents-conatiner {
+    
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    background-color: rgb(20, 65, 44);
+    /* background-color: white; */
+    background-color: rgb(22, 32, 30);
+    height: 100%;
+    text-align: center;
+
+}
+.my-profile-contents-conatiner-tabs {
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(20, 65, 44);
+  /* background-color: white; */
+    background-color: rgb(22, 32, 30);
+
+    height: 100%;
+}
+.complete-user-profile-contents-conatiner-tabs {
+    display: none;
+  
+   flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(20, 65, 44);
+      background-color: rgb(22, 32, 30);
+  /* background-color: white; */
+    height: 100%;
+}
+.user-profile-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6px 10px;
+    margin-top: 3px;
+    /* height: 400px; */
+    width: 100%;
+}
+
+
+.user-profile-form h3 {
+    color: white;
+    margin: 10px;
+}
+
+/* input {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 3px;
+    padding: 3px 2px;
+} */
+
+
+.submit-btn-user-profile {
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(13, 91, 84);
+    width: 73%;
+    font-size: 11px;
+    padding: 2px;
+    color: white;
+
+}
+
+.submit-btn-user-profile-all {
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(13, 91, 84);
+    width: 17%;
+    font-size: 11px;
+    padding: 2px;
+    color: white;
+
+}
+
+input[type='file'] {
+    color: green;
+    text-align: center;
+}
+
+
+input[type='radio'] {
+    color: green;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+input {
+    padding: 1px 5px;
+    border-radius: 2%;
+    margin-top: 5px;
+    border: none;
+    
+}
+/* 
+form {
+    border: 2px solid black;
+    margin:10px 2px;
+} */
+
+input {
+    color: black;
+}
+
+label {
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+select {
+    border-radius: 10%;
+    background-color: rgb(16, 78, 38);
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+button[type="submit"] {
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
