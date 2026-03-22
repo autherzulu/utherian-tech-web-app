@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require("cors")
 const path = require("path")
 const PORT = 4500
 const routes = require("./routes/routes")
@@ -15,7 +16,7 @@ const uploads = path.join(__dirname, "uploads")
 // const booking = path.join(__dirname, "controller","bookingController.js")
 app.use(cookies_parser())
 
-
+app.use(cors)
 
 app.use(express.static(public))
 app.use(express.static(view))
