@@ -1,7 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const path = require("path")
-const PORT = 4500
+const PORT = process.env.PORT||4500 
 const routes = require("./routes/routes")
 // const api_routes = require("./api_routes/user_detais_routes")
 // const api_routes_pay = require("./api_routes/user_payment_api_routes")
