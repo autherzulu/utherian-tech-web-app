@@ -50,7 +50,7 @@
  window.onload = async () => {
  
   try {
-  const response = await fetch("/api/dashboard", {
+  const response = await fetch("https://utherian-tech-web-app.onrender.com/api/dashboard", {
     method : "GET",
     headers : { "Content-Type" : "application/json"},
   })
@@ -95,7 +95,7 @@
 
 
   try {
-       const toDaysAppointmentsResponse = await fetch ("/api/todaysappointments", {
+       const toDaysAppointmentsResponse = await fetch ("https://utherian-tech-web-app.onrender.com/api/todaysappointments", {
         method : "GET",
         headers : {"Content-Type" : "application/json"}
       }

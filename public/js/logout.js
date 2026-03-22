@@ -8,7 +8,7 @@ document.querySelector("#logout-btn").addEventListener("click", async (ev) => {
 const logout = async () => {
  console.log("logout button clicked")
  try {
-        const respo = await fetch("/logout", {
+        const respo = await fetch("https://utherian-tech-web-app.onrender.com/logout", {
           method : "POST",
           credentials : "include"
         });

@@ -31,7 +31,7 @@ const deleteBookingByid = async () => {
   const bt = document.querySelector(".delete-btn")
   bt.addEventListener("click", async e => {
     booking_id = 4
-    const response = await fetch(`/api/booking/${booking_id}`, {
+    const response = await fetch(`https://utherian-tech-web-app.onrender.com/api/booking/${booking_id}`, {
       method : "DELETE",
       headers : {"Content-Type" : "application/json"}
     })
@@ -48,7 +48,7 @@ console.log('boooolll')
 const viewBookings = async () => {
 
   try {
-      const response = await fetch("/api/booking")
+      const response = await fetch("https://utherian-tech-web-app.onrender.com/api/booking")
       if (!response.ok) {
         // console.log('err ; booking', await response)
       }
@@ -168,7 +168,7 @@ btns.forEach( (btn) => {
  
 
 
-    const response = await fetch(`/api/booking/${code}`, {
+    const response = await fetch(`https://utherian-tech-web-app.onrender.com/api/booking/${code}`, {
       method : "GET",
       headers : {"Content-Type" : "application/json"}
 })

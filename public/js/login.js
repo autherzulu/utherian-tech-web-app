@@ -14,7 +14,7 @@ const Login_form = document.querySelector("#form-login")
         const password_login = document.querySelector("#password_login").value
       
       try {
-        const response1 = await fetch("/login", { 
+        const response1 = await fetch("https://utherian-tech-web-app.onrender.com/login", { 
           method : 'POST',
           headers : { 'Content-Type' : 'application/json'},
           body : JSON.stringify({user_name_login, email_login, password_login})
